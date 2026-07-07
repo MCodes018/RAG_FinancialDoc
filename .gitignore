@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+
+data/raw/
+data/processed/
+data/chunks/
+vector_db/
+
+*.log

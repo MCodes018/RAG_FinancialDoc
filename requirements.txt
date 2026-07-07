@@ -1,0 +1,32 @@
+# ---------- Core ----------
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# ---------- Text Splitters ----------
+langchain-text-splitters
+
+# ---------- Embeddings ----------
+langchain-huggingface
+sentence-transformers
+
+# ---------- Vector Store ----------
+langchain-chroma
+chromadb
+
+# ---------- Document Processing ----------
+beautifulsoup4
+lxml
+sec-edgar-downloader
+
+# ---------- Utilities ----------
+pandas
+numpy
+scikit-learn
+tiktoken
+tqdm
+python-dotenv
+
+#LLM
+langchain-ollama

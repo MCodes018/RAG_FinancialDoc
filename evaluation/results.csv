@@ -1,0 +1,55 @@
+query,strategy,retrieved_top_10,reranked_top_5,answer,manual_relevance_score_before,manual_relevance_score_after,notes
+What are JPMorgan's major risk factors?,fixed,"['JPM_fixed_81', 'JPM_fixed_182', 'JPM_fixed_212', 'JPM_fixed_206', 'JPM_fixed_88', 'JPM_fixed_156', 'JPM_fixed_86', 'JPM_fixed_955', 'JPM_fixed_134', 'JPM_fixed_960']","['JPM_fixed_81', 'JPM_fixed_86', 'JPM_fixed_955', 'JPM_fixed_88', 'JPM_fixed_156']","JPMorgan's major risk factors include:
+
+1. Legal and Regulatory risks (Source 2 | ticker=JPM | chunk_id=JPM_fixed_86)
+2. Cyber attacks and operational risks (Source 2 | ticker=JPM | chunk_id=JPM_fixed_86)
+3. Data management processes and safeguarding personal information (Source 2 | ticker=JPM | chunk_id=JPM_fixed_86)
+4. Compliance with vendor standards (Source 2 | ticker=JPM | chunk_id=JPM_fixed_86)
+5. Risk management framework (Source 2 | ticker=JPM | chunk_id=JPM_fixed_86)
+
+Additionally, JPMorgan is exposed to:
+
+1. Concentrations of credit and market risk (Source 5 | ticker=JPM | chunk_id=JPM_fixed_156)",,,
+What are JPMorgan's major risk factors?,semantic,"['JPM_semantic_61', 'JPM_semantic_11', 'JPM_semantic_17', 'JPM_semantic_115', 'JPM_semantic_18', 'JPM_semantic_10', 'JPM_semantic_21', 'JPM_semantic_19', 'JPM_semantic_31', 'JPM_semantic_27']","['JPM_semantic_11', 'JPM_semantic_61', 'JPM_semantic_115', 'JPM_semantic_21', 'JPM_semantic_27']","JPMorgan's major risk factors include:
+
+1. Operational risks, such as cybersecurity, compliance, conduct, legal, and estimations and model risk (Source 2 | chunk_id=JPM_semantic_61).
+2. Market risks, including changes in interest and foreign exchange rates, equity and commodity prices, credit spreads or implied volatilities (Source 2 | chunk_id=JPM_semantic_61).
+3. Credit and investment risks, such as default or change in credit profile of clients, counterparty or customer (Source 2 | chunk_id=JPM_semantic_61).
+4. Strategic risks, including poorly-designed or failed business plans or inadequate response to changes in the operating environment (Source 2 | chunk_id=JPM_semantic_61).
+5. Adverse effects of climate change on JPMorgan's business and operations (Source 1 | chunk_id=JPM_semantic_11).
+6. Negative impact of misconduct by employees (Source 1 | chunk_id=JPM_semantic_11).
+7. Failure to comply with applicable law, regulatory decisions or supervisory expectations (Source 1 | chunk_id=JPM_semantic_11).",,,
+How does JPMorgan describe credit risk?,fixed,"['JPM_fixed_679', 'JPM_fixed_664', 'JPM_fixed_505', 'JPM_fixed_1227', 'JPM_fixed_156', 'JPM_fixed_674', 'JPM_fixed_149', 'JPM_fixed_534', 'JPM_fixed_219', 'JPM_fixed_212']","['JPM_fixed_664', 'JPM_fixed_679', 'JPM_fixed_149', 'JPM_fixed_156', 'JPM_fixed_1227']","JPMorgan describes credit risk as the risk associated with the default or change in credit profile of a client, counterparty, or customer; loss of principal or reduction in expected returns on investments. (Source 1: JPM_fixed_664)",,,
+How does JPMorgan describe credit risk?,semantic,"['JPM_semantic_61', 'JPM_semantic_11', 'JPM_semantic_30', 'JPM_semantic_142', 'JPM_semantic_201', 'JPM_semantic_115', 'JPM_semantic_29', 'JPM_semantic_10', 'JPM_semantic_171', 'JPM_semantic_20']","['JPM_semantic_61', 'JPM_semantic_142', 'JPM_semantic_20', 'JPM_semantic_30', 'JPM_semantic_11']","Credit risk is described as the risk associated with the default or change in credit profile of a client, counterparty or customer; or loss of principal or a reduction in expected returns on investments. (Source 2 | ticker=JPM | strategy=semantic | chunk_id=JPM_semantic_142 | score=4.6411)",,,
+What does JPMorgan say about liquidity risk?,fixed,"['JPM_fixed_154', 'JPM_fixed_1227', 'JPM_fixed_156', 'JPM_fixed_161', 'JPM_fixed_164', 'JPM_fixed_81', 'JPM_fixed_149', 'JPM_fixed_85', 'JPM_fixed_219', 'JPM_fixed_955']","['JPM_fixed_85', 'JPM_fixed_1227', 'JPM_fixed_161', 'JPM_fixed_164', 'JPM_fixed_154']","JPMorgan's liquidity risk includes:
+
+* The risk that its ability to operate could be impaired by constrained liquidity (Source 3 | chunk_id=JPM_fixed_85).
+* Dependence on subsidiaries for funding (Source 4 | chunk_id=JPM_fixed_164).
+* Potential adverse effects of credit rating downgrades on liquidity and cost of funding (Source 1 | chunk_id=JPM_fixed_85).
+* Credit risk exposure to derivative counterparties, which may fail to meet payment obligations (Source 2 | chunk_id=JPM_fixed_1227).
+* Increased market and credit risks associated with positions that cannot be reduced effectively during a market dislocation (Source 3 | chunk_id=JPM_fixed_161).",,,
+What does JPMorgan say about liquidity risk?,semantic,"['JPM_semantic_61', 'JPM_semantic_21', 'JPM_semantic_142', 'JPM_semantic_115', 'JPM_semantic_79', 'JPM_semantic_30', 'JPM_semantic_20', 'JPM_semantic_75', 'JPM_semantic_19', 'JPM_semantic_29']","['JPM_semantic_142', 'JPM_semantic_61', 'JPM_semantic_20', 'JPM_semantic_21', 'JPM_semantic_75']","Liquidity risk is associated with derivative payables, as the Firm must post cash or securities collateral with counterparties as the fair value of the contracts moves in the counterparty's favor or upon specified downgrades in the Firm's and its subsidiaries' respective credit ratings. (Source 1 | chunk_id=JPM_semantic_142)",,,
+What are JPMorgan's main business segments?,fixed,"['JPM_fixed_407', 'JPM_fixed_10', 'JPM_fixed_16', 'JPM_fixed_331', 'JPM_fixed_11', 'JPM_fixed_332', 'JPM_fixed_14', 'JPM_fixed_1396', 'JPM_fixed_1783', 'JPM_fixed_388']","['JPM_fixed_407', 'JPM_fixed_1783', 'JPM_fixed_10', 'JPM_fixed_1396', 'JPM_fixed_331']","The main business segments of JPMorgan are:
+
+1. Consumer & Community Banking (Source 3 | ticker=JPM | strategy=fixed | chunk_id=JPM_fixed_407)
+2. Commercial & Investment Bank
+3. Asset & Wealth Management (Source 3 | ticker=JPM | strategy=fixed | chunk_id=JPM_fixed_407)
+
+These segments reflect the products and services provided, or the type of customers and clients served, as determined by the Firm's Operating Committee.",,,
+What are JPMorgan's main business segments?,semantic,"['JPM_semantic_43', 'JPM_semantic_201', 'JPM_semantic_63', 'JPM_semantic_1', 'JPM_semantic_2', 'JPM_semantic_204', 'JPM_semantic_53', 'JPM_semantic_45', 'JPM_semantic_31', 'JPM_semantic_5']","['JPM_semantic_43', 'JPM_semantic_201', 'JPM_semantic_45', 'JPM_semantic_2', 'JPM_semantic_204']","The Firm's three reportable business segments are:
+
+1. Consumer & Community Banking (CCB)
+2. Commercial & Investment Bank (CIB)
+3. Asset & Wealth Management (AWM)
+
+These segments reflect the manner in which financial information is evaluated by the Firm's Operating Committee, and they provide products and services to their respective client bases.
+
+Source: [Source 1 | chunk_id=JPM_semantic_43 | score=5.0769]",,,
+How does JPMorgan discuss regulatory risk?,fixed,"['JPM_fixed_237', 'JPM_fixed_224', 'JPM_fixed_674', 'JPM_fixed_82', 'JPM_fixed_108', 'JPM_fixed_171', 'JPM_fixed_156', 'JPM_fixed_218', 'JPM_fixed_505', 'JPM_fixed_87']","['JPM_fixed_674', 'JPM_fixed_224', 'JPM_fixed_82', 'JPM_fixed_237', 'JPM_fixed_505']","JPMorgan discusses regulatory risk as a significant concern, particularly in relation to model approvals and regulatory review. If models and estimations are not approved by regulators, it could lead to higher capital charges, affecting financial results or business expansion (Source 2 | ticker=JPM | chunk_id=JPM_fixed_224). Regulatory uncertainty regarding new technologies can also require modifications to product offerings, incur higher costs, or forgo business opportunities (Source 4 | ticker=JPM | chunk_id=JPM_fixed_237).",,,
+How does JPMorgan discuss regulatory risk?,semantic,"['JPM_semantic_29', 'JPM_semantic_61', 'JPM_semantic_30', 'JPM_semantic_12', 'JPM_semantic_11', 'JPM_semantic_115', 'JPM_semantic_20', 'JPM_semantic_28', 'JPM_semantic_24', 'JPM_semantic_15']","['JPM_semantic_11', 'JPM_semantic_29', 'JPM_semantic_61', 'JPM_semantic_28', 'JPM_semantic_12']","Regulatory risk is discussed in various sources. JPMorganChase's businesses are highly regulated and subject to extensive supervision and regulation (Source 1 | chunk_id=JPM_semantic_11). The firm must comply with applicable law in all jurisdictions where it does business, including requirements for implementing and maintaining compliance programs (Source 1 | chunk_id=JPM_semantic_29).
+
+The firm's risk governance framework involves understanding drivers of risks, types of risks, and impacts of risks (Source 3 | chunk_id=JPM_semantic_61). Regulatory risk is categorized as a type of operational risk, which includes cybersecurity, compliance, conduct, legal, and estimations and model risk.
+
+Specifically, JPMorganChase's failure to appropriately assess and manage relationships with vendors and service providers could result in significant losses (Source 1 | chunk_id=JPM_semantic_29). The firm's financial condition or results of operations could be materially and adversely affected by any significant inadequacy or lapse in its risk management framework, governance structure, practices, models, reporting systems, or controls (Source 2 | chunk_id=JPM_semantic_61).
+
+The firm's overall objective is to manage its business and associated risks in a manner that balances serving the interests of clients, customers, and investors with protecting the safety and soundness of the firm (Source 3 | chunk_id=JPM_semantic_61).",,,
