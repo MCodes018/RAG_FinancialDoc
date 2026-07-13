@@ -1,4 +1,4 @@
-# Financial RAG Pipeline using LangChain, LangGraph and Ollama
+# Financial RAG Pipeline
 
 ## Project Overview
 
