@@ -199,34 +199,40 @@ Ollama allows local execution of language models while integrating smoothly with
 
 # Evaluation
 
-To compare the retrieval strategies fairly, I created a common set of financial questions stored in `evaluation/test_queries.csv`.
+To evaluate the retrieval pipeline, I created a benchmark dataset of financial questions covering factual lookup, definitions, summaries, and risk-related queries. Each question was executed using both the fixed-size and semantic chunking pipelines.
 
-Each query is processed using:
+For every query, the pipeline records:
 
-- Fixed chunking pipeline
-- Semantic chunking pipeline
-
-For every run, the project records:
-
-- Retrieved chunks
+- Top retrieved chunks
 - Reranked chunks
 - Generated answer
+- Quantitative evaluation metrics
 
-The outputs are stored in `evaluation/results.csv` for comparison.
+The evaluation measures:
+
+- Faithfulness
+- Answer Relevance
+- Answer Correctness
+- Context Relevance
+- Semantic Similarity
+- Reranking impact
+- End-to-end Latency
+
+The generated metrics are stored in `evaluation/detailed_metrics.csv`, while the average scores for each retrieval strategy are stored in `evaluation/summary_metrics.csv`.
 
 ---
 
-# Observations
+# Key Findings
 
-After evaluating both approaches, I observed that:
+The quantitative evaluation highlights the impact of retrieval strategy on answer quality.
 
-- Fixed-size chunking generally retrieved relevant information quickly but occasionally split related financial concepts across chunks.
-- Semantic chunking usually produced more complete and better organised answers because related paragraphs remained together.
-- Cross-encoder reranking improved retrieval by promoting more relevant chunks before answer generation.
-- The overall quality of the generated responses depended more on retrieval quality than on the language model itself.
+- Semantic chunking consistently produced more coherent and contextually grounded responses by preserving related financial information within the same chunk.
+- Fixed-size chunking performed well for direct fact retrieval but occasionally fragmented related concepts, resulting in less complete responses.
+- Cross-encoder reranking improved the quality of retrieved context by promoting more relevant chunks before answer generation.
+- The evaluation metrics showed that retrieval quality directly influenced the quality of the final generated answer, reinforcing that improvements in retrieval have a greater impact than changing the language model alone.
+- Although semantic chunking introduced slightly higher latency, the improvement in answer quality provided a reasonable trade-off for analytical financial applications.
 
-These observations reinforced the importance of retrieval design when building RAG systems.
-
+Overall, the evaluation demonstrates that retrieval design—including chunking strategy and reranking—plays a critical role in building reliable RAG systems.
 ---
 
 # Installation
