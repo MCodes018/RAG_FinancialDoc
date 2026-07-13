@@ -1,0 +1,8 @@
+check,status,details
+required_columns,pass,All required columns are present.
+missing_values,pass,0 missing required values.
+exact_duplicates,pass,0 exact duplicate questions.
+category_coverage,pass,"8 categories: ['adversarial_control', 'broad_summary', 'cause_effect', 'definition', 'direct_fact', 'relationship', 'targeted_summary', 'unanswerable_control']"
+answerability_coverage,pass,Includes both answerable and unanswerable questions.
+reference_answer_detail,warn,1 reference answers contain fewer than 8 words.
+near_duplicates,pass,No near-duplicate questions above 0.92 cosine similarity.
